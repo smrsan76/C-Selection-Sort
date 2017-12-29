@@ -35,7 +35,7 @@ int main() {
     // Print Array Elements
     printArrElems(arr, arrLen);
 
-    // free(&arr);
+    free(arr);
     return 0;
 }
 
@@ -72,7 +72,7 @@ void swap_int(int *a, int *b){
 
 }
 
-/*/ Sort Array Using Selection Sort Algorithm /*/// {12, 6, 9, 11, 7, 10, 2, 5, 3, 1, 4, 8}
+/*/ Sort Array Using Selection Sort Algorithm /*///e.g. {12, 6, 9, 11, 7, 10, 2, 5, 3, 1, 4, 8}
 void selectionSort(int **arrPtr, byte arrLen){
 
 
